@@ -2,7 +2,6 @@ import { makeExecutableSchema } from "@graphql-tools/schema";
 import { PrismaClient } from "@prisma/client";
 import {
   ApolloServerPluginDrainHttpServer,
-  ApolloServerPluginLandingPageGraphQLPlayground,
   ApolloServerPluginLandingPageLocalDefault
 } from "apollo-server-core";
 import { ApolloServer } from "apollo-server-express";
